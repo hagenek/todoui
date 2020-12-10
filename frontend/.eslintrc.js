@@ -3,7 +3,12 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  ignorePatterns: ['/src/App.test.tsx', '/src/App.css', 'public/*', 'tsconfig.json', '.eslintrc.js'],
+  ignorePatterns: [
+    '/src/App.test.tsx',
+    '/src/App.css',
+    'public/*',
+    'tsconfig.json',
+  ],
   settings: {
     'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
     'import/parsers': {
@@ -27,7 +32,6 @@ module.exports = {
   rules: {
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': ['error'],
-    '@typescript-eslint/no-useless-constructor': 'error',
     'jsx-a11y/href-no-hash': ['off'],
     'react/jsx-props-no-spreading': ['off'],
     'react/jsx-filename-extension': [
